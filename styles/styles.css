@@ -238,6 +238,7 @@ main .section.highlight {
   background-color: var(--light-color);
 }
 
-li {
-  background-color: skyblue;
+.cards > ul > li {
+  border: 10px solid black;
+  background-color: aliceblue;
 }
