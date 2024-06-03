@@ -238,6 +238,7 @@ main .section.highlight {
   background-color: var(--light-color);
 }
 
+/*custom changes abcd */
 .cards > ul > li {
   border: 10px solid black !important;
   background-color: aliceblue !important;
