@@ -242,4 +242,5 @@ main .section.highlight {
 .cards > ul > li {
   border: 10px solid black !important;
   background-color: aliceblue !important;
+  background-image: url("Group 1000011550.png");
 }
