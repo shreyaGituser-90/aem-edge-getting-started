@@ -240,7 +240,8 @@ main .section.highlight {
 
 /*custom changes abcd */
 .cards > ul > li {
-  border: 3px solid black !important;
+  margin-top: 5px;
+  border: 3px solid blue !important;
   background-color: aliceblue !important;
   background-image: url("Group 1000011550.png");
 }
