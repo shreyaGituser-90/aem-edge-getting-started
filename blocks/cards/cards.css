@@ -44,6 +44,6 @@
   position: relative;
   z-index: 4;
   padding: 20px;
-  color: #fff;
+  /* color: #fff; */
   text-align: center;
 }
