@@ -240,6 +240,6 @@ main .section.highlight {
 
 .cards > ul > li {
   /* border: 10px solid black; */
-  background-color: #8cb133;
+  background-color: green;
   /* color: white; */
 }
