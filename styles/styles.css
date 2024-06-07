@@ -242,3 +242,7 @@ main .section.highlight {
   border: 10px solid black;
   background-color: aliceblue;
 }
+
+.first {
+  background-color: #8cb133;
+}
