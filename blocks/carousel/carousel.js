@@ -42,6 +42,9 @@ function showSlide(block, slideIndex = 0) {
     left: activeSlide.offsetLeft,
     behavior: "smooth",
   });
+
+  block.dataset.activeSlide = realSlideIndex;
+  updateActiveSlide(activeSlide);
 }
 
 function bindEvents(block) {
@@ -73,6 +76,11 @@ function bindEvents(block) {
   block.querySelectorAll(".carousel-slide").forEach((slide) => {
     slideObserver.observe(slide);
   });
+
+  // Automatic slide change every 3 seconds
+  setInterval(() => {
+    showSlide(block, parseInt(block.dataset.activeSlide, 10) + 1);
+  }, 3000);
 }
 
 function createSlide(row, slideIndex, carouselId) {
