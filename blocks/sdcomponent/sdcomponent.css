@@ -1,3 +1,6 @@
+.row-container {
+  /* margin: 2% 10%; */
+}
 .second-div tr {
   display: flex;
   gap: 30px;
