@@ -58,12 +58,3 @@
   text-align: center;
   color: #ffffff;
 }
-td:hover {
-  width: Hug (114px) px;
-  height: Fixed (40px) px;
-  padding: 12px 20px 12px 20px;
-  gap: 10px;
-  border-radius: 2px 0px 0px 0px;
-  opacity: 0px;
-  background: #3cb8ff;
-}
